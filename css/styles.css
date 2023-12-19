@@ -1,0 +1,68 @@
+/* Guide
+
+Brand Colours:
+- Primary: #3F2305
+- Secondary: #DFD7BF
+- Background: #F5F5F5
+- Text: #000000
+- Other: #F2EAD3
+
+Google Font:
+- Kodchasan: 300lig, 400reg, 400ital, 700bol
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+/* Default Text Elements */
+* {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #F5F5F5;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.4;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.75em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+h3,
+h4,
+h5 {
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 0.75em;
+}
+
+img {
+    width: 100%;
+}
