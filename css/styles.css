@@ -66,10 +66,6 @@ h5 {
     font-size: 0.75em;
 }
 
-img {
-    width: 100%;
-}
-
 /* Link Stylings */
 a,
 .fa-brands.fa-twitter,
@@ -145,4 +141,9 @@ a:active {
 
 .button.email:active {
     font-weight: 700;
+}
+
+/* 100% image width */
+img {
+    width: 100%;
 }
