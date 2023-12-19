@@ -71,7 +71,11 @@ img {
 }
 
 /* Link Stylings */
-a {
+a,
+.fa-brands.fa-twitter,
+.fa-brands.fa-dribbble,
+.fa-brands.fa-instagram,
+.fa-brands.fa-square-behance {
     color: #3F2305;
     text-decoration: none;
 }
@@ -88,4 +92,36 @@ a:focus {
 
 a:active {
     color: #F2EAD3;
+}
+
+.fa-brands.fa-twitter:hover,
+.fa-brands.fa-dribbble:hover,
+.fa-brands.fa-instagram:hover,
+.fa-brands.fa-square-behance:hover,
+.fa-brands.fa-twitter:focus,
+.fa-brands.fa-dribbble:focus,
+.fa-brands.fa-instagram:focus,
+.fa-brands.fa-square-behance:focus {
+    color: #F2EAD3;
+}
+
+/* project links */
+.button {
+    background-color: #3F2305;
+    font-weight: 400;
+    color: #F2EAD3;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: #DFD7BF solid 2px;
+}
+
+.button:hover {
+    background-color: #F2EAD3;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.button:active {
+    color: #3F2305;
+    font-weight: 700;
 }
