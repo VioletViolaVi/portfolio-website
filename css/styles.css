@@ -10,6 +10,9 @@ Brand Colours:
 Google Font:
 - Kodchasan: 300lig, 400reg, 400ital, 700bol
 
+Link order:
+- link, visited, hover, focus, active
+
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,300;0,400;0,700;1,400&display=swap');
@@ -65,4 +68,24 @@ h5 {
 
 img {
     width: 100%;
+}
+
+/* Link Stylings */
+a {
+    color: #3F2305;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #DFD7BF;
+}
+
+a:hover,
+a:focus {
+    color: #3F2305;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #F2EAD3;
 }
