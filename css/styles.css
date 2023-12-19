@@ -22,6 +22,26 @@ Breakpoints:
 
 /* default text elements */
 * {
+    box-sizing: border-box;
+}
+
+body,
+header,
+div,
+a,
+nav,
+ul,
+li,
+main,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+footer {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
@@ -95,6 +115,10 @@ a:focus {
 
 a:active {
     color: #F2EAD3;
+}
+
+header div a:focus {
+    background-color: transparent;
 }
 
 .fa-brands.fa-twitter:hover,
