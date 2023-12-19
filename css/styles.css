@@ -13,6 +13,9 @@ Google Font:
 Links order:
 - link, visited, hover, focus, active
 
+Breakpoints:
+- 320px, 576px, 768px, 992px, 1200px
+
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,300;0,400;0,700;1,400&display=swap');
@@ -113,6 +116,7 @@ a:active {
     padding: 10px;
     border-radius: 5px;
     border-bottom: #DFD7BF solid 2px;
+    display: inline-block;
 }
 
 .button:hover {
