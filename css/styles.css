@@ -10,7 +10,7 @@ Brand Colours:
 Google Font:
 - Kodchasan: 300lig, 400reg, 400ital, 700bol
 
-Link order:
+Links order:
 - link, visited, hover, focus, active
 
 */
@@ -90,6 +90,10 @@ a:focus {
     text-decoration: underline;
 }
 
+a:focus {
+    background-color: #F2EAD3;
+}
+
 a:active {
     color: #F2EAD3;
 }
@@ -123,5 +127,22 @@ a:active {
 
 .button:active {
     color: #3F2305;
+    font-weight: 700;
+}
+
+/* email links */
+.button.email {
+    background-color: transparent;
+    color: #3F2305;
+    text-transform: uppercase;
+    border: 2px solid #3F2305;
+}
+
+.button.email:hover {
+    background-color: #3F2305;
+    color: #F2EAD3;
+}
+
+.button.email:active {
     font-weight: 700;
 }
