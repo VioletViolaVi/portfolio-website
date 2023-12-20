@@ -12,6 +12,10 @@ Google Font:
 
 Links Order:
 - link, visited, hover, focus, active
+colours:
+- visited = default
+- hover/focus = active
+- hover/focus ≠ default
 
 Breakpoints:
 - 320px, 576px, 768px, 992px, 1200px
@@ -25,15 +29,7 @@ Breakpoints:
     box-sizing: border-box;
 }
 
-body,
-header,
-main,
-section,
-h2,
-h3,
-h4,
-h5,
-footer {
+body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
@@ -81,54 +77,60 @@ h5 {
     font-size: 0.75em;
 }
 
-/* link styles */
-a,
-.fa-brands.fa-twitter,
-.fa-brands.fa-dribbble,
-.fa-brands.fa-instagram,
-.fa-brands.fa-square-behance {
+img {
+    width: 100%;
+}
+
+/* general links */
+a {
     color: #3F2305;
-    text-decoration: none;
 }
 
 a:visited {
-    color: #DFD7BF;
+    color: #3F2305;
 }
 
 a:hover,
 a:focus {
-    color: #3F2305;
+    color: #DFD7BF;
     text-decoration: underline;
 }
 
 a:active {
-    color: #F2EAD3;
+    color: #DFD7BF;
 }
 
 /* project links */
 .button {
-    background-color: #3F2305;
+    background-color: #F2EAD3;
+    color: #3F2305;
     font-weight: 400;
-    color: #F2EAD3;
     padding: 10px;
     border-radius: 5px;
-    border-bottom: #DFD7BF solid 2px;
     display: inline-block;
+    border-bottom: #3F2305 solid 2px;
+}
+
+.button:visited {
+    background-color: #F2EAD3;
+    color: #3F2305;
 }
 
 .button:hover {
-    background-color: #F2EAD3;
+    background-color: #000000;
+    color: #DFD7BF;
     opacity: 0.8;
     text-decoration: none;
 }
 
 .button:focus {
-    background-color: #F2EAD3;
+    background-color: #000000;
+    color: #DFD7BF;
 }
 
 .button:active {
-    color: #3F2305;
-    font-weight: 700;
+    background-color: #000000;
+    color: #DFD7BF;
 }
 
 /* email links */
@@ -139,37 +141,41 @@ a:active {
     border: 2px solid #3F2305;
 }
 
-.button.email:hover {
+.button.email:visited {
+    background-color: transparent;
+    color: #3F2305;
+}
+
+.button.email:hover,
+.button.email:focus {
     background-color: #3F2305;
     color: #F2EAD3;
 }
 
 .button.email:active {
+    background-color: #3F2305;
+    color: #F2EAD3;
     font-weight: 700;
 }
 
-/* 100% image width */
-img {
-    width: 100%;
-}
-
 /* footer icons */
-.fa-brands.fa-twitter,
-.fa-brands.fa-dribbble,
-.fa-brands.fa-instagram,
-.fa-brands.fa-square-behance {
+.fa-brands {
     font-size: 2rem;
+    color: #3F2305;
+    text-decoration: none;
 }
 
-.fa-brands.fa-twitter:hover,
-.fa-brands.fa-dribbble:hover,
-.fa-brands.fa-instagram:hover,
-.fa-brands.fa-square-behance:hover,
-.fa-brands.fa-twitter:focus,
-.fa-brands.fa-dribbble:focus,
-.fa-brands.fa-instagram:focus,
-.fa-brands.fa-square-behance:focus {
-    color: #F2EAD3;
+.fa-brands:visited {
+    color: #3F2305;
+}
+
+.fa-brands:hover,
+.fa-brands:focus {
+    color: #DFD7BF;
+}
+
+.fa-brands:active {
+    color: #DFD7BF;
 }
 
 /* Layout styling ************************************************************************************************/
@@ -201,7 +207,7 @@ header {
 }
 
 main {
-    padding-top: 190px;
+    padding-top: 180px;
 }
 
 nav {
@@ -218,6 +224,35 @@ nav > ul > li {
     display: inline-block;
 }
 
+
+
+
+
+
+/* Guide
+
+Brand Colours:
+- Primary: #3F2305
+- Secondary: #DFD7BF
+- Background: #F5F5F5
+- Text: #000000
+- Other: #F2EAD3
+
+Google Font:
+- Kodchasan: 300lig, 400reg, 400ital, 700bol
+
+Links Order:
+- link, visited, hover, focus, active
+colours:
+- visited = default
+- hover/focus = active
+- hover/focus ≠ default
+
+Breakpoints:
+- 320px, 576px, 768px, 992px, 1200px
+
+*/
+
 nav > ul > li > a {
     padding: 0 10px;
     text-transform: uppercase;
@@ -226,6 +261,15 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:visited {
+    color: #3F2305;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+    color: #DFD7BF;
+}
+
+nav > ul > li > a:active {
     color: #DFD7BF;
 }
 
