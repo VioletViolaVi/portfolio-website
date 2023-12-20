@@ -49,6 +49,7 @@ h5 {
 h1,
 h2 {
     font-weight: 700;
+    text-align: center;
 }
 
 h1 {
@@ -189,14 +190,7 @@ a:active {
     padding-bottom: 25px;
 }
 
-#selfIntro h1 {
-    text-align: center;
-}
-
-.logo img {
-    max-width: 250px;
-}
-
+/* navbar */
 header {
     background-color: #F2EAD3;
     text-align: center;
@@ -206,8 +200,8 @@ header {
     width: 100%;
 }
 
-main {
-    padding-top: 180px;
+.logo img {
+    max-width: 250px;
 }
 
 nav {
@@ -244,9 +238,66 @@ nav > ul > li > a:active {
     color: #DFD7BF;
 }
 
+/* about me */
+#aboutMe img {
+    border: 10px solid #3F2305;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px #F2EAD3;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* self-intro */
+main {
+    padding-top: 180px;
+}
+
+#selfIntro h1 {
+    text-align: center;
+}
+
 #selfIntro {
     background-color: #F2EAD3;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
+}
+
+/* footer */
+#contact {
+    background-color: #F2EAD3;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 5px 5px 15px 3px #3F2305;
+    width: 100%;
+}
+
+/* phone number */
+#contact > .container > div > p > a,
+#contact > .container > div > p > a:visited {
+    font-weight: 900;
+    color: #3F2305;
+}
+
+#contact > .container > div > p > a:hover,
+#contact > .container > div > p > a:focus,
+#contact > .container > div > p > a:active {
+    font-weight: 900;
+    color: #DFD7BF;
+}
+
+/* social icons */
+#contact li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#contact ul {
+    padding: 10px 0;
+}
+
+#contact .fa-brands {
+    padding: 0 10px;
 }
