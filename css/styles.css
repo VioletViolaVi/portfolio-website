@@ -254,15 +254,20 @@ main {
     padding-top: 180px;
 }
 
-#selfIntro h1 {
-    text-align: center;
-}
-
 #selfIntro {
     background-color: #F2EAD3;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
+}
+
+#selfIntro h1,
+#selfIntro p {
+    text-align: center;
+}
+
+#selfIntro span {
+    display: block;
 }
 
 /* footer */
