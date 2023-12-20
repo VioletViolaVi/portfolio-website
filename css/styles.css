@@ -224,35 +224,6 @@ nav > ul > li {
     display: inline-block;
 }
 
-
-
-
-
-
-/* Guide
-
-Brand Colours:
-- Primary: #3F2305
-- Secondary: #DFD7BF
-- Background: #F5F5F5
-- Text: #000000
-- Other: #F2EAD3
-
-Google Font:
-- Kodchasan: 300lig, 400reg, 400ital, 700bol
-
-Links Order:
-- link, visited, hover, focus, active
-colours:
-- visited = default
-- hover/focus = active
-- hover/focus ≠ default
-
-Breakpoints:
-- 320px, 576px, 768px, 992px, 1200px
-
-*/
-
 nav > ul > li > a {
     padding: 0 10px;
     text-transform: uppercase;
