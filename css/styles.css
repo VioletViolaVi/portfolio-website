@@ -20,27 +20,19 @@ Breakpoints:
 
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
-/* default text elements */
+/* Default text elements ************************************************************************************************/
 * {
     box-sizing: border-box;
 }
 
 body,
 header,
-div,
-a,
-nav,
-ul,
-li,
 main,
 section,
-h1,
 h2,
 h3,
 h4,
 h5,
-p,
-span,
 footer {
     font-size: 16px;
     font-weight: 300;
@@ -64,7 +56,7 @@ h2 {
 }
 
 h1 {
-    font-size: 2.75em;
+    font-size: 2.55em;
 }
 
 h2 {
@@ -109,26 +101,7 @@ a:focus {
     text-decoration: underline;
 }
 
-a:focus {
-    background-color: #F2EAD3;
-}
-
 a:active {
-    color: #F2EAD3;
-}
-
-header div a:focus {
-    background-color: transparent;
-}
-
-.fa-brands.fa-twitter:hover,
-.fa-brands.fa-dribbble:hover,
-.fa-brands.fa-instagram:hover,
-.fa-brands.fa-square-behance:hover,
-.fa-brands.fa-twitter:focus,
-.fa-brands.fa-dribbble:focus,
-.fa-brands.fa-instagram:focus,
-.fa-brands.fa-square-behance:focus {
     color: #F2EAD3;
 }
 
@@ -147,6 +120,10 @@ header div a:focus {
     background-color: #F2EAD3;
     opacity: 0.8;
     text-decoration: none;
+}
+
+.button:focus {
+    background-color: #F2EAD3;
 }
 
 .button:active {
@@ -173,5 +150,88 @@ header div a:focus {
 
 /* 100% image width */
 img {
+    width: 100%;
+}
+
+/* footer icons */
+.fa-brands.fa-twitter,
+.fa-brands.fa-dribbble,
+.fa-brands.fa-instagram,
+.fa-brands.fa-square-behance {
+    font-size: 2rem;
+}
+
+.fa-brands.fa-twitter:hover,
+.fa-brands.fa-dribbble:hover,
+.fa-brands.fa-instagram:hover,
+.fa-brands.fa-square-behance:hover,
+.fa-brands.fa-twitter:focus,
+.fa-brands.fa-dribbble:focus,
+.fa-brands.fa-instagram:focus,
+.fa-brands.fa-square-behance:focus {
+    color: #F2EAD3;
+}
+
+/* Layout styling ************************************************************************************************/
+.container {
+    padding: 0 15px;
+}
+
+#projects .row {
+    margin: 25px 0;
+    border-bottom: 2px solid #3F2305;
+    padding-bottom: 25px;
+}
+
+#selfIntro h1 {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 250px;
+}
+
+header {
+    background-color: #F2EAD3;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 5px 5px 15px 3px #3F2305;
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    padding-top: 190px;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3F2305;
+}
+
+nav > ul > li > a:visited {
+    color: #DFD7BF;
+}
+
+#selfIntro {
+    background-color: #F2EAD3;
+    padding: 20px 0;
+    display: inline-block;
     width: 100%;
 }
