@@ -9,16 +9,16 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="icon" type="image/x-icon" href="img/logos/small-screens/favicon-icon-flower.png">
+    <link rel="icon" type="image/x-icon" href="img/logos/favicon-icon-flower.png">
     <script src="https://kit.fontawesome.com/bfcbb8f6a3.js" crossorigin="anonymous"></script>
     <title>UI Portfolio | Vivian | United Kingdom</title>
 </head>
 
 <body id="homePage">
     <header id="nav">
-        <div>
-            <a href="index.html">
-                <img src="img/logos/small-screens/logo.png" alt="Logo Vivian">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/logos/logo.png" alt="Logo Vivian">
             </a>
 
             <nav>
@@ -33,7 +33,7 @@
 
     <main>
         <section id="selfIntro">
-            <div>
+            <div class="container">
                 <h1>Hi, my name is Vivian.<span>I am a UI Designer from the United Kingdom.</span></h1>
 
                 <p>
@@ -50,98 +50,105 @@
 
         <!-- projects -->
         <section id="projects">
-            <div>
-                <h2>My Work</h2>
-            </div>
-
-            <div>
+            <div class="container">
                 <div>
-                    <div>
-                        <picture>
-                            <source media="(min-width:992px)" srcset="img/homepages/big-screens/stitched-homepage.png">
-                            <img src="img/homepages/small-screens/stitched-homepage.png"
-                                alt="Stitched homepage screen.">
-                        </picture>
-                    </div>
-
-                    <div>
-                        <h3>Stitched</h3>
-
-                        <p>
-                            A vintage clothing app designed for buying and selling vintage clothes. Skills: Figma,
-                            Balsamiq, Low, Mid, High Fidelity Wireframing, Mockups, Style Guides, Mood Boards,
-                            Iconography.
-                        </p>
-
-                        <a href="projects/stitched.html" class="button">Read more</a>
-                    </div>
+                    <h2>My Work</h2>
                 </div>
 
                 <div>
-                    <div>
-                        <picture>
-                            <source media="(min-width:992px)"
-                                srcset="img/homepages/big-screens/healthy-eats-homepage.png">
-                            <img src="img/homepages/small-screens/healthy-eats-homepage.png"
-                                alt="Healthy Eats homepage screen.">
-                        </picture>
+                    <div class="row">
+                        <div>
+                            <picture>
+                                <source media="(min-width:992px)"
+                                    srcset="img/homepages/big-screens/stitched-homepage.png">
+                                <img src="img/homepages/small-screens/stitched-homepage.png"
+                                    alt="Stitched homepage screen.">
+                            </picture>
+                        </div>
+
+                        <div>
+                            <h3>Stitched</h3>
+
+                            <p>
+                                A vintage clothing app designed for buying and selling vintage clothes. Skills: Figma,
+                                Balsamiq, Low, Mid, High Fidelity Wireframing, Mockups, Style Guides, Mood Boards,
+                                Iconography.
+                            </p>
+
+                            <a href="projects/stitched.html" class="button">Read more</a>
+                        </div>
                     </div>
 
-                    <div>
-                        <h3>Healthy Eats</h3>
+                    <div class="row">
+                        <div>
+                            <picture>
+                                <source media="(min-width:992px)"
+                                    srcset="img/homepages/big-screens/healthy-eats-homepage.png">
+                                <img src="img/homepages/small-screens/healthy-eats-homepage.png"
+                                    alt="Healthy Eats homepage screen.">
+                            </picture>
+                        </div>
 
-                        <p>
-                            A recipes responsive web app designed for finding recipes to cook. Skills: Figma, Balsamiq,
-                            Low, Mid, High Fidelity Wireframing, Mockups, Style Guides, Mood Boards, Iconography, User
-                            Flow/Activity Diagram.
-                        </p>
+                        <div>
+                            <h3>Healthy Eats</h3>
 
-                        <a href="projects/healthy-eats.html" class="button">Read more</a>
-                    </div>
-                </div>
+                            <p>
+                                A recipes responsive web app designed for finding recipes to cook. Skills: Figma,
+                                Balsamiq,
+                                Low, Mid, High Fidelity Wireframing, Mockups, Style Guides, Mood Boards, Iconography,
+                                User
+                                Flow/Activity Diagram.
+                            </p>
 
-                <div>
-                    <div>
-                        <picture>
-                            <source media="(min-width:992px)" srcset="img/homepages/big-screens/cinemagic-homepage.png">
-                            <img src="img/homepages/small-screens/cinemagic-homepage.png"
-                                alt="Cinemagic homepage screen.">
-                        </picture>
-                    </div>
-
-                    <div>
-                        <h3>Cinemagic</h3>
-
-                        <p>
-                            A movie ticket booking native app designed for both iOS and Android phones.
-                            Skills: Figma, Balsamiq, Low, Mid, High Fidelity Wireframing, Mockups, Prototyping, User
-                            Flow/Activity Diagram.
-                        </p>
-
-                        <a href="projects/cinemagic.html" class="button">Read more</a>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <picture>
-                            <source media="(min-width:992px)"
-                                srcset="img/homepages/big-screens/frugalityfirst-homepage.png">
-                            <img src="img/homepages/small-screens/frugalityfirst-homepage.png"
-                                alt="FrugalityFirst homepage screen.">
-                        </picture>
+                            <a href="projects/healthy-eats.html" class="button">Read more</a>
+                        </div>
                     </div>
 
-                    <div>
-                        <h3>FrugalityFirst</h3>
+                    <div class="row">
+                        <div>
+                            <picture>
+                                <source media="(min-width:992px)"
+                                    srcset="img/homepages/big-screens/cinemagic-homepage.png">
+                                <img src="img/homepages/small-screens/cinemagic-homepage.png"
+                                    alt="Cinemagic homepage screen.">
+                            </picture>
+                        </div>
 
-                        <p>
-                            A money saving tool responsive web app design for helping users save money. Skills: Figma,
-                            Balsamiq, Low, Mid High Fidelity Wireframing, Mockups, Prototyping, Style Guides,
-                            Iconography, User Flow/Activity Diagram.
-                        </p>
+                        <div>
+                            <h3>Cinemagic</h3>
 
-                        <a href="projects/frugalityfirst.html" class="button">Read more</a>
+                            <p>
+                                A movie ticket booking native app designed for both iOS and Android phones.
+                                Skills: Figma, Balsamiq, Low, Mid, High Fidelity Wireframing, Mockups, Prototyping, User
+                                Flow/Activity Diagram.
+                            </p>
+
+                            <a href="projects/cinemagic.html" class="button">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <picture>
+                                <source media="(min-width:992px)"
+                                    srcset="img/homepages/big-screens/frugalityfirst-homepage.png">
+                                <img src="img/homepages/small-screens/frugalityfirst-homepage.png"
+                                    alt="FrugalityFirst homepage screen.">
+                            </picture>
+                        </div>
+
+                        <div>
+                            <h3>FrugalityFirst</h3>
+
+                            <p>
+                                A money saving tool responsive web app design for helping users save money. Skills:
+                                Figma,
+                                Balsamiq, Low, Mid High Fidelity Wireframing, Mockups, Prototyping, Style Guides,
+                                Iconography, User Flow/Activity Diagram.
+                            </p>
+
+                            <a href="projects/frugalityfirst.html" class="button">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,7 +156,7 @@
     </main>
 
     <footer id="contact">
-        <div>
+        <div class="container">
             <h2>Get in Touch</h2>
 
             <div>
@@ -162,7 +169,8 @@
 
             <div>
                 <ul>
-                    <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://twitter.com" target="_blank" class="footer-icon"><i
+                                class="fa-brands fa-twitter"></i></a></li>
                     <li><a href="https://dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a></li>
                     <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     </li>
