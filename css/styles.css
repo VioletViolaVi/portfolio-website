@@ -260,21 +260,6 @@ main {
     width: 100%;
 }
 
-/* phone number */
-.phone a,
-.phone a:visited {
-    font-weight: 900;
-    color: #3F2305;
-    text-decoration: none;
-}
-
-.phone a:hover,
-.phone a:focus,
-.phone a:active {
-    font-weight: 900;
-    color: #DFD7BF;
-}
-
 /* social icons */
 #contact li {
     list-style-type: none;
