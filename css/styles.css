@@ -227,6 +227,11 @@ nav > ul > li > a:active {
     box-shadow: 5px 5px 5px 5px #F2EAD3;
 }
 
+.cv-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 ul {
     list-style-type: square;
 }
@@ -281,7 +286,7 @@ main {
 .mockups {
     display: flex;
     overflow: auto;
-    gap: 2em;
+    grid-gap: 2em;
     background-color: #DFD7BF;
 }
 
@@ -509,6 +514,11 @@ svg {
         flex: 60%;
         max-width: 60%;
         padding: 0 20px 0 0;
+    }
+
+    .cv-container {
+        justify-content: flex-start;
+        grid-gap: 25px;
     }
 
     .skills-column {
