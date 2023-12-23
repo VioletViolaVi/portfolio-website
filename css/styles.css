@@ -417,38 +417,6 @@ svg {
     animation: 20s snow-move infinite alternate linear;
 }
 
-/* @keyframes color-change {
-    0% {
-        fill: #FDFEFE;
-    }
-
-    50% {
-        fill: #F2EAD3;
-    }
-
-    100% {
-        fill: #DFD7BF;
-    }
-}
-
-.sun {
-    animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-    from {
-        transform: translate(0, 50px);
-    }
-
-    to {
-        transform: translate(400px, 50px);
-    }
-}
-
-.cloud-front {
-    animation: 1s cloud-move infinite alternate linear;
-} */
-
 /* Media queries ************************************************************************************************/
 
 /* medium devices */
