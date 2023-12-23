@@ -118,6 +118,7 @@ a:active {
 .button:active {
     background-color: #000000;
     color: #DFD7BF;
+    text-decoration: none;
 }
 
 /* email links */
