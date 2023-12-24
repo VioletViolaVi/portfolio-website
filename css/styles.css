@@ -313,7 +313,6 @@ main {
     display: flex;
     overflow: auto;
     grid-gap: 2em;
-    /* background-color: #DFD7BF; */
 }
 
 .mockups {
@@ -448,10 +447,15 @@ svg {
         text-align: unset;
     }
 
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2em;
+    }
+
     nav {
-        float: right;
         width: auto;
-        margin-top: 24px;
     }
 
     main {
