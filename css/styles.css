@@ -45,7 +45,6 @@ h4 {
 h1,
 h2 {
     font-weight: 700;
-    text-align: center;
 }
 
 h1 {
@@ -82,11 +81,17 @@ a:visited {
 a:hover,
 a:focus {
     color: #DFD7BF;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
     color: #DFD7BF;
+}
+
+/* homepage */
+#homePage h1,
+#homePage h2 {
+    text-align: center;
 }
 
 /* project links */
@@ -170,13 +175,18 @@ a:active {
 
 #projects .row {
     margin: 25px 0;
-    border-bottom: 2px solid #3F2305;
+    border-bottom: 2px solid #3F230533; /* added '33' for 20% transparency */
     padding-bottom: 25px;
+}
+
+#projects .row:last-child {
+    margin: 0;
+    border-bottom: none;
 }
 
 /* navbar */
 header {
-    background-color: #F2EAD3;
+    background-color: #C4B37D;
     text-align: center;
     padding: 10px 0;
     box-shadow: 5px 5px 15px 3px #3F2305;
@@ -239,7 +249,7 @@ ul {
 
 /* self-intro */
 main {
-    padding-top: 100px;
+    padding-top: 105.01px;
 }
 
 #selfIntro {
@@ -249,12 +259,14 @@ main {
     width: 100%;
 }
 
-#selfIntro p {
-    text-align: center;
-}
-
 #selfIntro span {
     display: block;
+    font-size: 70%;
+    margin-block-start: 0.6em;
+}
+
+#selfIntro .container p:last-child {
+    margin-block-start: 2em;
 }
 
 /* footer */
@@ -283,12 +295,18 @@ main {
 /* wireframes & mockups */
 .low-fi-frames,
 .mid-fi-frames,
+.high-fi-frames {
+    padding: 30px 0;
+}
+
+.low-fi-frames,
+.mid-fi-frames,
 .high-fi-frames,
 .mockups {
     display: flex;
     overflow: auto;
     grid-gap: 2em;
-    background-color: #DFD7BF;
+    /* background-color: #DFD7BF; */
 }
 
 .mockups {
@@ -300,6 +318,7 @@ main {
 .high-fi-frames img,
 .mockups img {
     width: 280px;
+    box-shadow: 0 0 4px 4px #000000;
 }
 
 #cinemagicProject .high-fi-frames {
@@ -329,7 +348,8 @@ main {
     width: 320px;
 }
 
-/* css animation */
+/* CSS Animation ************************************************************************************************/
+
 svg {
     width: 100%;
     max-width: 100%;
