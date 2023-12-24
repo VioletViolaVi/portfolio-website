@@ -236,11 +236,8 @@ nav > ul > li > a:active {
     border: 10px solid #3F2305;
     border-radius: 50%;
     box-shadow: 5px 5px 5px 5px #F2EAD3;
-}
-
-.cv-container {
-    display: flex;
-    justify-content: space-evenly;
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 ul {
@@ -535,11 +532,6 @@ svg {
         flex: 60%;
         max-width: 60%;
         padding: 0 20px 0 0;
-    }
-
-    .cv-container {
-        justify-content: flex-start;
-        grid-gap: 25px;
     }
 
     .skills-column {
