@@ -445,6 +445,7 @@ svg {
 
     header {
         text-align: unset;
+        padding: 15px 0;
     }
 
     header .container {
@@ -454,12 +455,16 @@ svg {
         padding: 0 2em;
     }
 
+    .logo {
+        line-height: 0;
+    }
+
     nav {
         width: auto;
     }
 
     main {
-        padding-top: 80px;
+        padding-top: 82.31px;
     }
 
     footer {
