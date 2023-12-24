@@ -237,6 +237,10 @@ nav > ul > li > a:active {
 }
 
 /* about me */
+#aboutMe h1 {
+    text-align: center;
+}
+
 #aboutMe img {
     border: 10px solid #3F2305;
     border-radius: 50%;
