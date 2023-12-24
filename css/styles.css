@@ -26,6 +26,10 @@ colours:
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 16px;
     font-weight: 300;
@@ -182,6 +186,7 @@ a:active {
 #projects .row:last-child {
     margin: 0;
     border-bottom: none;
+    padding-bottom: 0;
 }
 
 /* navbar */
@@ -236,7 +241,7 @@ nav > ul > li > a:active {
     border: 10px solid #3F2305;
     border-radius: 50%;
     box-shadow: 5px 5px 5px 5px #F2EAD3;
-    aspect-ratio: 16/9;
+    aspect-ratio: 1/1;
     object-fit: cover;
 }
 
@@ -273,6 +278,7 @@ main {
     padding: 10px 0;
     box-shadow: 5px 5px 15px 3px #3F2305;
     width: 100%;
+    margin-top: 3em;
 }
 
 /* social icons */
@@ -455,6 +461,15 @@ svg {
     /* home */
     #homePage h3 {
         margin-top: 0;
+    }
+
+    /* projects */
+    .project-spacing {
+        margin: 1em 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        grid-gap: 0.5em;
     }
 
     /* about me */
