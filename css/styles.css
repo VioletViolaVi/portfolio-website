@@ -241,12 +241,18 @@ nav > ul > li > a:active {
     text-align: center;
 }
 
+#aboutMe picture {
+    display: flex;
+    justify-content: center;
+}
+
 #aboutMe img {
     border: 10px solid #3F2305;
     border-radius: 50%;
     box-shadow: 5px 5px 5px 5px #F2EAD3;
     aspect-ratio: 1/1;
     object-fit: cover;
+    width: 70%;
 }
 
 ul {
