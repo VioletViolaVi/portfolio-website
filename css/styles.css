@@ -50,9 +50,10 @@ header {
 }
 
 main {
-    padding-top: 105.01px;
+    padding-top: 80px;
 }
 
+/* left & right for all pages */
 .container {
     padding: 0 15px;
 }
@@ -115,6 +116,43 @@ a:active {
 
 #bigNav {
     display: none;
+}
+
+#smallNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5rem;
+}
+
+#smallNav nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#smallNav a {
+    text-decoration: none;
+    width: 120px;
+}
+
+/* burger icon */
+.fa-solid {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #3F2305;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.fa-solid:visited {
+    color: #3F2305;
+}
+
+.fa-solid:hover,
+.fa-solid:focus,
+.fa-solid:active {
+    color: #DFD7BF;
 }
 
 /* footer ************************************************************************************************/
@@ -425,7 +463,7 @@ svg {
     }
 
     main {
-        padding-top: 82.31px;
+        padding-top: 84.98px;
     }
 
     footer {
@@ -433,6 +471,10 @@ svg {
     }
 
     /* big navbar ************************************************************************************************/
+
+    #smallNav {
+        display: none;
+    }
 
     /* header container */
     #bigNav {
@@ -449,7 +491,7 @@ svg {
     }
 
     /* logo */
-    .logo img {
+    #bigNav .logo img {
         max-width: 140px;
     }
 
