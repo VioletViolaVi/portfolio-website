@@ -117,6 +117,12 @@ li {
     display: inline-block;
 }
 
+/* small navbar ************************************************************************************************/
+
+#bigNav {
+    display: none;
+}
+
 /* overlay */
 .overlay {
     background-color: #3F2305;
@@ -125,12 +131,6 @@ li {
     height: 100%;
     top: 0;
     opacity: 0.2;
-    display: none;
-}
-
-/* small navbar ************************************************************************************************/
-
-#bigNav {
     display: none;
 }
 
