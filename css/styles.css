@@ -21,7 +21,8 @@ colours:
 
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
-/* Default text elements ************************************************************************************************/
+/* general ************************************************************************************************/
+
 * {
     box-sizing: border-box;
 }
@@ -39,6 +40,15 @@ body {
     color: #000000;
 }
 
+main {
+    padding-top: 105.01px;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+/* headings */
 h1,
 h2,
 h3,
@@ -76,7 +86,7 @@ img {
     width: 100%;
 }
 
-/* general links */
+/* anchor links */
 a,
 a:visited {
     color: #3F2305;
@@ -92,104 +102,9 @@ a:active {
     color: #DFD7BF;
 }
 
-/* homepage */
-#homePage h1,
-#homePage h2 {
-    text-align: center;
-}
+/* navbar ************************************************************************************************/
 
-/* project links */
-.button {
-    background-color: #F2EAD3;
-    color: #3F2305;
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
-    border-bottom: #3F2305 solid 2px;
-    text-decoration: none;
-    transition: all 0.2s;
-}
-
-.button:visited {
-    background-color: #F2EAD3;
-    color: #3F2305;
-}
-
-.button:hover {
-    background-color: #000000;
-    color: #DFD7BF;
-    opacity: 0.8;
-    text-decoration: none;
-}
-
-.button:focus,
-.button:active {
-    background-color: #000000;
-    color: #DFD7BF;
-    text-decoration: none;
-}
-
-/* email links */
-.button.email {
-    background-color: transparent;
-    color: #3F2305;
-    text-transform: uppercase;
-    border: 2px solid #3F2305;
-}
-
-.button.email:visited {
-    background-color: transparent;
-    color: #3F2305;
-}
-
-.button.email:hover,
-.button.email:focus {
-    background-color: #3F2305;
-    color: #F2EAD3;
-}
-
-.button.email:active {
-    background-color: #3F2305;
-    color: #F2EAD3;
-    font-weight: 700;
-}
-
-/* footer icons */
-.fa-brands {
-    font-size: 2rem;
-    color: #3F2305;
-    text-decoration: none;
-}
-
-.fa-brands:visited {
-    color: #3F2305;
-}
-
-.fa-brands:hover,
-.fa-brands:focus,
-.fa-brands:active {
-    color: #DFD7BF;
-}
-
-/* Layout styling ************************************************************************************************/
-.container {
-    padding: 0 15px;
-}
-
-#projects .row {
-    margin: 25px 0;
-    border-bottom: 2px solid #3F230533; /* added '33' for 20% transparency */
-    padding-bottom: 25px;
-}
-
-#projects .row:last-child {
-    margin: 0;
-    border-bottom: none;
-    padding-bottom: 0;
-}
-
-/* navbar */
+/* container */
 header {
     background-color: #C4B37D;
     text-align: center;
@@ -199,10 +114,12 @@ header {
     width: 100%;
 }
 
+/* logo */
 .logo img {
     max-width: 140px;
 }
 
+/* nav links */
 nav {
     display: inline-block;
     width: 100%;
@@ -236,32 +153,75 @@ nav > ul > li > a:active {
     color: #DFD7BF;
 }
 
-/* about me */
-#aboutMe h1 {
+/* footer ************************************************************************************************/
+
+#contact {
+    background-color: #F2EAD3;
     text-align: center;
+    padding: 10px 0;
+    box-shadow: 5px 5px 15px 3px #3F2305;
+    width: 100%;
+    margin-top: 3em;
 }
 
-#aboutMe picture {
-    display: flex;
-    justify-content: center;
+/* email link */
+.button.email {
+    background-color: transparent;
+    color: #3F2305;
+    text-transform: uppercase;
+    border: 2px solid #3F2305;
 }
 
-#aboutMe img {
-    border: 10px solid #3F2305;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px 5px #F2EAD3;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    width: 70%;
+.button.email:visited {
+    background-color: transparent;
+    color: #3F2305;
 }
 
-ul {
-    list-style-type: square;
+.button.email:hover,
+.button.email:focus {
+    background-color: #3F2305;
+    color: #F2EAD3;
 }
 
-/* self-intro */
-main {
-    padding-top: 105.01px;
+.button.email:active {
+    background-color: #3F2305;
+    color: #F2EAD3;
+    font-weight: 700;
+}
+
+/* footer icons */
+#contact ul {
+    padding: 10px 0;
+}
+
+#contact li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    color: #3F2305;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.fa-brands:visited {
+    color: #3F2305;
+}
+
+.fa-brands:hover,
+.fa-brands:focus,
+.fa-brands:active {
+    color: #DFD7BF;
+}
+
+/* home page ************************************************************************************************/
+
+/* titles */
+#homePage h1,
+#homePage h2 {
+    text-align: center;
 }
 
 #selfIntro {
@@ -281,29 +241,78 @@ main {
     margin-block-start: 2em;
 }
 
-/* footer */
-#contact {
+/* project thumbnails */
+#projects .row {
+    margin: 25px 0;
+    border-bottom: 2px solid #3F230533; /* added '33' for 20% transparency */
+    padding-bottom: 25px;
+}
+
+#projects .row:last-child {
+    margin: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* "read more" links */
+.button {
     background-color: #F2EAD3;
-    text-align: center;
-    padding: 10px 0;
-    box-shadow: 5px 5px 15px 3px #3F2305;
-    width: 100%;
-    margin-top: 3em;
-}
-
-/* social icons */
-#contact li {
-    list-style-type: none;
+    color: #3F2305;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 5px;
     display: inline-block;
+    border-bottom: #3F2305 solid 2px;
+    text-decoration: none;
+    transition: all 0.2s;
 }
 
-#contact ul {
-    padding: 10px 0;
+.button:visited {
+    background-color: #F2EAD3;
+    color: #3F2305;
 }
 
-#contact .fa-brands {
-    padding: 0 10px;
+.button:hover {
+    background-color: #000000;
+    color: #DFD7BF;
+    opacity: 0.8;
+    text-decoration: none;
 }
+
+.button:focus,
+.button:active {
+    background-color: #000000;
+    color: #DFD7BF;
+    text-decoration: none;
+}
+
+/* about page ************************************************************************************************/
+
+/* title */
+#aboutMe h1 {
+    text-align: center;
+}
+
+/* image */
+#aboutMe picture {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutMe img {
+    border: 10px solid #3F2305;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px #F2EAD3;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 70%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* project pages ************************************************************************************************/
 
 /* wireframes & mockups */
 .low-fi-frames,
@@ -333,6 +342,7 @@ main {
     box-shadow: 0 0 4px 4px #000000;
 }
 
+/* specific projects */
 #cinemagicProject .high-fi-frames {
     align-items: flex-start;
 }
@@ -360,8 +370,9 @@ main {
     width: 320px;
 }
 
-/* CSS Animation ************************************************************************************************/
+/* css animation ************************************************************************************************/
 
+/* svg image */
 svg {
     width: 100%;
     max-width: 100%;
@@ -440,15 +451,24 @@ svg {
     animation: 20s snow-move infinite alternate linear;
 }
 
-/* Media queries ************************************************************************************************/
+/* media queries ************************************************************************************************/
 
 /* medium devices */
 @media only screen and (min-width: 640px) {
-    /* general */
+    /* general ************************************************************************************************/
     body {
         font-size: 18px;
     }
 
+    main {
+        padding-top: 82.31px;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+    /* navbar ************************************************************************************************/
     header {
         text-align: unset;
         padding: 15px 0;
@@ -469,15 +489,7 @@ svg {
         width: auto;
     }
 
-    main {
-        padding-top: 82.31px;
-    }
-
-    footer {
-        margin-top: 40px;
-    }
-
-    /* home */
+    /* home page ************************************************************************************************/
     #homePage h3 {
         margin-top: 0;
     }
@@ -491,7 +503,9 @@ svg {
         grid-gap: 0.5em;
     }
 
-    /* about me */
+    /* about page ************************************************************************************************/
+
+    /* image */
     #aboutMe picture img {
         display: block;
         margin: 0 auto;
@@ -521,7 +535,8 @@ svg {
 
 /* large devices */
 @media only screen and (min-width: 1024px) {
-    /* general */
+    /* general ************************************************************************************************/
+
     body {
         font-size: 20px;
     }
@@ -539,7 +554,8 @@ svg {
         margin-bottom: 7px;
     }
 
-    /* home */
+    /* home page ************************************************************************************************/
+
     #homePage .container {
         padding: 0 50px;
     }
@@ -557,9 +573,14 @@ svg {
         padding: 10px;
     }
 
-    /* about me */
+    /* about page ************************************************************************************************/
+
     .self-info-container {
         display: flex;
+    }
+
+    #aboutPage h2 {
+        text-align: unset;
     }
 
     .story-column {
@@ -572,10 +593,6 @@ svg {
         flex: 40%;
         max-width: 40%;
         padding: 0 0 0 20px;
-    }
-
-    #aboutPage h2 {
-        text-align: unset;
     }
 
     #aboutPage .col-lg-5 {
@@ -597,10 +614,13 @@ svg {
 
 /* x-large devices */
 @media only screen and (min-width: 1440px) {
-    /* general */
+    /* general ************************************************************************************************/
+
     body {
         font-size: 22px;
     }
+
+    /* home page ************************************************************************************************/
 
     .single-project-column1 {
         width: 60%;
