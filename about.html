@@ -15,10 +15,12 @@
 </head>
 
 <body id="aboutPage">
-    <!-- modal overlay -->
-    <div class="overlay"></div>
 
     <header>
+        <!-- modal overlay -->
+        <div class="overlay"></div>
+
+        <!-- mobile nav -->
         <div id="smallNav">
             <!-- logo & menu icon -->
             <nav class="logo-and-bars">
@@ -26,7 +28,7 @@
                     <img src="img/logos/logo.svg" alt="Logo Vivian">
                 </a>
 
-                <i class="fa-solid fa-bars"></i>
+                <i aria-label="toggle menu" class="fa-solid fa-bars"></i>
             </nav>
 
             <!-- menu links -->
@@ -34,22 +36,23 @@
                 <ul>
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
 
+        <!-- desktop nav -->
         <div id="bigNav">
             <div class="container">
                 <a href="index.html" class="logo">
                     <img src="img/logos/logo.svg" alt="Logo Vivian">
                 </a>
 
-                <nav>
+                <nav aria-label="primary navigation">
                     <ul>
                         <li><a href="index.html">Work</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
