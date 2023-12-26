@@ -40,6 +40,15 @@ body {
     color: #000000;
 }
 
+header {
+    background-color: #C4B37D;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 5px 5px 15px 3px #3F2305;
+    position: fixed;
+    width: 100%;
+}
+
 main {
     padding-top: 105.01px;
 }
@@ -102,55 +111,10 @@ a:active {
     color: #DFD7BF;
 }
 
-/* navbar ************************************************************************************************/
+/* small navbar ************************************************************************************************/
 
-/* container */
-header {
-    background-color: #C4B37D;
-    text-align: center;
-    padding: 10px 0;
-    box-shadow: 5px 5px 15px 3px #3F2305;
-    position: fixed;
-    width: 100%;
-}
-
-/* logo */
-.logo img {
-    max-width: 140px;
-}
-
-/* nav links */
-nav {
-    display: inline-block;
-    width: 100%;
-}
-
-nav > ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav > ul > li {
-    display: inline-block;
-}
-
-nav > ul > li > a {
-    padding: 0 10px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #3F2305;
-    text-decoration: none;
-}
-
-nav > ul > li > a:visited {
-    color: #3F2305;
-}
-
-nav > ul > li > a:hover,
-nav > ul > li > a:focus,
-nav > ul > li > a:active {
-    color: #DFD7BF;
+#bigNav {
+    display: none;
 }
 
 /* footer ************************************************************************************************/
@@ -468,25 +432,60 @@ svg {
         margin-top: 40px;
     }
 
-    /* navbar ************************************************************************************************/
-    header {
+    /* big navbar ************************************************************************************************/
+
+    /* header container */
+    #bigNav {
+        display: flex;
         text-align: unset;
         padding: 15px 0;
     }
 
-    header .container {
+    #bigNav .container {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         padding: 0 2em;
+        width: 100%;
     }
 
-    .logo {
-        line-height: 0;
+    /* logo */
+    .logo img {
+        max-width: 140px;
     }
 
-    nav {
-        width: auto;
+    /* nav links */
+    #bigNav nav {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    #bigNav nav > ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #bigNav nav > ul > li {
+        display: inline-block;
+    }
+
+    #bigNav nav > ul > li > a {
+        padding: 0 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #3F2305;
+        text-decoration: none;
+    }
+
+    #bigNav nav > ul > li > a:visited {
+        color: #3F2305;
+    }
+
+    #bigNav nav > ul > li > a:hover,
+    #bigNav nav > ul > li > a:focus,
+    #bigNav nav > ul > li > a:active {
+        color: #DFD7BF;
     }
 
     /* home page ************************************************************************************************/
