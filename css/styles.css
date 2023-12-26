@@ -40,15 +40,6 @@ body {
     color: #000000;
 }
 
-header {
-    background-color: #C4B37D;
-    text-align: center;
-    padding: 10px 0;
-    box-shadow: 5px 5px 15px 3px #3F2305;
-    position: fixed;
-    width: 100%;
-}
-
 main {
     padding-top: 80px;
 }
@@ -123,17 +114,6 @@ li {
     display: none;
 }
 
-/* overlay */
-.overlay {
-    background-color: #3F2305;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    opacity: 0.2;
-    display: none;
-}
-
 .logo-and-bars {
     display: flex;
     align-items: center;
@@ -143,6 +123,16 @@ li {
 /* logo */
 .logo {
     width: 150px;
+}
+
+#smallNav {
+    background-color: #C4B37D;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 5px 5px 15px 3px #3F2305;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 #smallNav .links {
@@ -161,6 +151,17 @@ li {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/* overlay */
+.overlay {
+    background-color: #3F2305;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.2;
+    display: none;
 }
 
 /* burger icon */
@@ -502,8 +503,11 @@ svg {
     /* header container */
     #bigNav {
         display: flex;
-        text-align: unset;
+        background-color: #C4B37D;
+        position: fixed;
+        width: 100%;
         padding: 15px 0;
+        box-shadow: 5px 5px 15px 3px #3F2305;
     }
 
     #bigNav .container {
