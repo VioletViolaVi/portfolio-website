@@ -319,18 +319,16 @@ li {
 }
 
 /* image */
-#aboutMe picture {
+.avatar {
     display: flex;
     justify-content: center;
 }
 
-#aboutMe img {
-    border: 10px solid #3F2305;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px 5px #F2EAD3;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    width: 70%;
+.avatar img {
+    border: 10px solid #F2EAD3;
+    box-shadow: 5px 5px 5px 5px #3F2305;
+    max-width: 300px;
+    padding: 5px;
 }
 
 ul {
@@ -568,13 +566,6 @@ svg {
     }
 
     /* about page ************************************************************************************************/
-
-    /* image */
-    #aboutMe picture img {
-        display: block;
-        margin: 0 auto;
-        max-width: 300px;
-    }
 
     /* skills & tools */
     #aboutPage h3 {
