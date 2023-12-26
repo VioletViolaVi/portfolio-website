@@ -112,6 +112,11 @@ a:active {
     color: #DFD7BF;
 }
 
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
 /* small navbar ************************************************************************************************/
 
 #bigNav {
@@ -194,11 +199,6 @@ a:active {
 /* footer icons */
 #contact ul {
     padding: 10px 0;
-}
-
-#contact li {
-    list-style-type: none;
-    display: inline-block;
 }
 
 .fa-brands {
@@ -503,13 +503,8 @@ svg {
     }
 
     #bigNav nav > ul {
-        list-style-type: none;
         padding: 0;
         margin: 0;
-    }
-
-    #bigNav nav > ul > li {
-        display: inline-block;
     }
 
     #bigNav nav > ul > li > a {
