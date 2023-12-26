@@ -103,11 +103,6 @@ a:active {
     color: #DFD7BF;
 }
 
-li {
-    list-style-type: none;
-    display: inline-block;
-}
-
 /* small navbar ************************************************************************************************/
 
 #bigNav {
@@ -145,6 +140,11 @@ li {
     flex-direction: column;
     align-items: flex-start;
     grid-row-gap: 2rem;
+}
+
+#smallNav li {
+    list-style-type: none;
+    display: inline-block;
 }
 
 #smallNav .links a {
@@ -222,6 +222,11 @@ li {
 /* footer icons */
 #contact ul {
     padding: 10px 0;
+}
+
+#contact li {
+    list-style-type: none;
+    display: inline-block;
 }
 
 .fa-brands {
@@ -331,7 +336,7 @@ li {
     padding: 5px;
 }
 
-ul {
+#aboutPage ul li {
     list-style-type: square;
 }
 
@@ -530,6 +535,11 @@ svg {
     #bigNav nav > ul {
         padding: 0;
         margin: 0;
+    }
+
+    #bigNav li {
+        list-style-type: none;
+        display: inline-block;
     }
 
     #bigNav nav > ul > li > a {
