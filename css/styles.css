@@ -345,17 +345,12 @@ a:active {
 /* wireframes & mockups */
 .low-fi-frames,
 .mid-fi-frames,
-.high-fi-frames {
-    padding: 30px 0;
-}
-
-.low-fi-frames,
-.mid-fi-frames,
 .high-fi-frames,
 .mockups {
     display: flex;
     overflow: auto;
     grid-gap: 2em;
+    padding: 30px 10px;
 }
 
 .mockups {
