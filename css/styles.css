@@ -261,10 +261,15 @@ a:active {
     width: 100%;
 }
 
+#selfIntro h1 {
+    color: #3F2305;
+}
+
 #selfIntro span {
     display: block;
     font-size: 70%;
     margin-block-start: 0.6em;
+    color: #000000;
 }
 
 #selfIntro .container p:last-child {
