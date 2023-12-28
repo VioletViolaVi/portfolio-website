@@ -289,6 +289,10 @@ a:active {
     padding-bottom: 0;
 }
 
+#projects span {
+    font-weight: bold;
+}
+
 /* "read more" links */
 .button {
     background-color: #F2EAD3;
