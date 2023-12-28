@@ -351,6 +351,25 @@ a:active {
 
 /* project pages ************************************************************************************************/
 
+/* user-research */
+.user-research {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    grid-gap: 2em;
+}
+
+.user-research img {
+    height: 500px;
+    width: 600px;
+}
+
+#frugalityFirstProject .user-research img { 
+    height: 500px;
+    width: 700px;
+}
+
 /* wireframes & mockups */
 .low-fi-frames,
 .mid-fi-frames,
@@ -565,6 +584,8 @@ svg {
         margin-top: 0;
     }
 
+    /* project pages ************************************************************************************************/
+
     /* projects */
     .project-spacing {
         margin: 1em 0;
@@ -572,6 +593,25 @@ svg {
         flex-direction: column;
         flex-wrap: nowrap;
         grid-gap: 0.5em;
+    }
+
+    /* user-research */
+    .user-research {
+        flex-direction: row;
+    }
+
+    .user-research img {
+        height: 400px;
+    }
+
+    #cinemagicProject .user-research img {
+        height: 450px;
+        width: 600px;
+    }
+
+    #frugalityFirstProject .user-research img {
+        height: 600px;
+        width: 800px;
     }
 
     /* about page ************************************************************************************************/
@@ -635,6 +675,24 @@ svg {
         float: left;
         width: 50%;
         padding: 10px;
+    }
+
+    /* project pages ************************************************************************************************/
+
+    /* user-research */
+    .user-research img {
+        height: 500px;
+        width: 700px;
+    }
+
+    #cinemagicProject .user-research img {
+        height: 600px;
+        width: 800px;
+    }
+
+    #frugalityFirstProject .user-research img {
+        height: 700px;
+        width: 1000px;
     }
 
     /* about page ************************************************************************************************/
