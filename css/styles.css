@@ -355,7 +355,6 @@ a:active {
 .user-research {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     overflow: auto;
     grid-gap: 2em;
 }
