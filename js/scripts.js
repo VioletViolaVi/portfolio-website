@@ -11,5 +11,4 @@ $(document).ready(function () {
         $(".links").slideToggle("slow");
         $(".overlay").fadeToggle("slow");
     });
-
 });
