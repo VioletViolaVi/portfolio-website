@@ -121,7 +121,8 @@ a:active {
 }
 
 #smallNav {
-    background-color: #C4B37D;
+    background-color: #8A783F;
+    /* background-color: #C4B37D; */
     text-align: center;
     padding: 10px 0;
     box-shadow: 5px 5px 15px 3px #3F2305;
@@ -523,7 +524,8 @@ svg {
     /* header container */
     #bigNav {
         display: flex;
-        background-color: #C4B37D;
+        background-color: #8A783F;
+        /* background-color: #C4B37D; */
         position: fixed;
         width: 100%;
         padding: 15px 0;
