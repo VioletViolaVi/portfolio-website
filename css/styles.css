@@ -649,6 +649,10 @@ svg {
         margin: 0 auto;
     }
 
+    #bigNav .container {
+        max-width: 1500px;
+    }
+
     footer h2 {
         margin: 17px 0;
     }
