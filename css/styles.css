@@ -139,18 +139,22 @@ a:active {
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    grid-row-gap: 2rem;
+    grid-row-gap: 1rem;
 }
 
 #smallNav li {
     list-style-type: none;
     display: inline-block;
+    width: 100%;
 }
 
 #smallNav .links a {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    display: block;
+    text-align: left;
+    padding: 0.6rem 0;
 }
 
 /* overlay */
@@ -165,7 +169,7 @@ a:active {
 }
 
 /* burger icon */
-.fa-solid {
+.fa-solid.fa-solid {
     cursor: pointer;
     font-size: 2rem;
     color: #3F2305;
@@ -181,6 +185,17 @@ a:active {
 .fa-solid:focus,
 .fa-solid:active {
     color: #DFD7BF;
+}
+
+/* cross icon */
+.fa-xmark {
+    position: fixed;
+    right: 2px;
+    top: 26px;
+}
+
+.hide-icon {
+    visibility: hidden;
 }
 
 /* footer ************************************************************************************************/
@@ -390,7 +405,9 @@ a:active {
 .high-fi-frames img,
 .mockups img {
     width: 280px;
+    height: 300px;
     box-shadow: 0 0 4px 4px #000000;
+    object-fit: cover;
 }
 
 /* specific projects */
