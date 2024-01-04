@@ -121,7 +121,7 @@ a:active {
 }
 
 #smallNav {
-    background-color: #8A783F; /* background-color: #C4B37D; */
+    background-color: #C4B37D;
     text-align: center;
     padding: 10px 0;
     box-shadow: 5px 5px 15px 3px #3F2305;
@@ -279,7 +279,8 @@ a:active {
 /* project thumbnails */
 #projects .row {
     margin: 25px 0;
-    border-bottom: 2px solid #3F230533; /* added '33' for 20% transparency */
+    border-bottom: 2px solid #3F230533;
+    /* added '33' for 20% transparency */
     padding-bottom: 25px;
 }
 
@@ -523,7 +524,7 @@ svg {
     /* header container */
     #bigNav {
         display: flex;
-        background-color: #8A783F; /* background-color: #C4B37D; */
+        background-color: #C4B37D;
         position: fixed;
         width: 100%;
         padding: 15px 0;
@@ -549,7 +550,7 @@ svg {
         width: 100%;
     }
 
-    #bigNav nav > ul {
+    #bigNav nav ul {
         padding: 0;
         margin: 0;
     }
@@ -559,7 +560,7 @@ svg {
         display: inline-block;
     }
 
-    #bigNav nav > ul > li > a {
+    #bigNav nav ul li a {
         padding: 0 10px;
         text-transform: uppercase;
         font-weight: 700;
@@ -567,13 +568,13 @@ svg {
         text-decoration: none;
     }
 
-    #bigNav nav > ul > li > a:visited {
+    #bigNav nav ul li a:visited {
         color: #3F2305;
     }
 
-    #bigNav nav > ul > li > a:hover,
-    #bigNav nav > ul > li > a:focus,
-    #bigNav nav > ul > li > a:active {
+    #bigNav nav ul li a:hover,
+    #bigNav nav ul li a:focus,
+    #bigNav nav ul li a:active {
         color: #DFD7BF;
     }
 
@@ -657,7 +658,7 @@ svg {
         margin: 17px 0;
     }
 
-    footer .container > p {
+    footer .container p {
         margin-bottom: 7px;
     }
 
