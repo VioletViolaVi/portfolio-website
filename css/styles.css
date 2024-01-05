@@ -405,9 +405,7 @@ a:active {
 .high-fi-frames img,
 .mockups img {
     width: 280px;
-    height: 300px;
     box-shadow: 0 0 4px 4px #000000;
-    object-fit: cover;
 }
 
 /* specific projects */
