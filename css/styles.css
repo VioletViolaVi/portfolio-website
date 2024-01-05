@@ -376,8 +376,8 @@ a:active {
 }
 
 .user-research img {
-    height: 500px;
-    width: 600px;
+    height: 390px;
+    width: 525px;
 }
 
 #frugalityFirstProject .user-research img {
@@ -616,7 +616,8 @@ svg {
     }
 
     .user-research img {
-        height: 400px;
+        height: 415px;
+        width: 550px;
     }
 
     #cinemagicProject .user-research img {
@@ -700,8 +701,8 @@ svg {
 
     /* user-research */
     .user-research img {
-        height: 500px;
-        width: 700px;
+        height: 490px;
+        width: 590px;
     }
 
     #cinemagicProject .user-research img {
